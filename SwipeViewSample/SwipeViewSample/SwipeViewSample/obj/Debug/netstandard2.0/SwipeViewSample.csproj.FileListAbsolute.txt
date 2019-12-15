@@ -1,0 +1,14 @@
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\bin\Debug\netstandard2.0\SwipeViewSample.deps.json
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\bin\Debug\netstandard2.0\SwipeViewSample.dll
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\bin\Debug\netstandard2.0\ref\SwipeViewSample.dll
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\bin\Debug\netstandard2.0\SwipeViewSample.pdb
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\SwipeViewSample.csprojAssemblyReference.cache
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\SwipeViewSample.AssemblyInfoInputs.cache
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\SwipeViewSample.AssemblyInfo.cs
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\SwipeViewSample.dll
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\ref\SwipeViewSample.dll
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\SwipeViewSample.pdb
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\PersonListPage.xaml.g.cs
+C:\Users\Yigit\Desktop\SwipeViewSample\SwipeViewSample\SwipeViewSample\obj\Debug\netstandard2.0\XamlC.stamp

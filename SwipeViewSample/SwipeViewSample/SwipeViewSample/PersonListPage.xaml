@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SwipeViewSample.PersonListPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Bind Persons"
+                    Clicked="Button_Clicked"/>
+            <ListView HasUnevenRows="True"
+                      ItemsSource="{Binding .}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <SwipeView>
+                                <SwipeView.LeftItems>
+                                    <SwipeItems Mode="Execute">
+                                        <SwipeItem Text="Delete"
+                                                   BackgroundColor="Red"
+                                                   Invoked="SwipeItem_Invoked"
+                                                   CommandParameter="{Binding .}"/>
+                                    </SwipeItems>
+                                </SwipeView.LeftItems>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding picture.large}"
+                                       Aspect="AspectFill"
+                                       Grid.Row="0"
+                                       Grid.Column="0"
+                                       Grid.RowSpan="2"/>
+                                <Label Text="{Binding name.first}"
+                                       Grid.Row="0"
+                                       Grid.Column="1" FontAttributes="Bold"/>
+                                <Label Text="{Binding name.last}"
+                                       Grid.Row="1"
+                                       Grid.Column="1" FontAttributes="Italic"/>
+                                </Grid>
+                            </SwipeView>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

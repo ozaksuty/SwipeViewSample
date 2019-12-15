@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SwipeViewSample.MainPage">
+
+    <StackLayout Padding="10">
+        <SwipeView SwipeStarted="SwipeView_SwipeStarted"
+                   SwipeEnded="SwipeView_SwipeEnded"
+                   SwipeChanging="SwipeView_SwipeChanging">
+            <SwipeView.LeftItems>
+                <SwipeItems Mode="Execute">
+                    <SwipeItem Text="Left"
+                               BackgroundColor="Red"
+                               Invoked="SwipeItem_Invoked"/>
+                </SwipeItems>
+            </SwipeView.LeftItems>
+            <SwipeView.RightItems>
+                <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                    <SwipeItem Text="Right"
+                               BackgroundColor="Black"
+                               Invoked="SwipeItem_Invoked"/>
+                </SwipeItems>
+            </SwipeView.RightItems>
+            <SwipeView.TopItems>
+                <SwipeItems>
+                    <SwipeItem Text="Top"
+                               BackgroundColor="Blue"
+                               Invoked="SwipeItem_Invoked"/>
+                </SwipeItems>
+            </SwipeView.TopItems>
+            <SwipeView.BottomItems>
+                <SwipeItems>
+                    <SwipeItem Text="Bottom"
+                               BackgroundColor="Green"
+                               Invoked="SwipeItem_Invoked"/>
+                </SwipeItems>
+            </SwipeView.BottomItems>
+            <BoxView BackgroundColor="#800055"
+                     WidthRequest="150"
+                     HeightRequest="150"/>
+        </SwipeView>
+    </StackLayout>
+
+</ContentPage>
